@@ -1,54 +1,119 @@
-/**
- First External CSS Stylesheet
- **/
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
+
 body {
-  padding: 0;
-  margin: 0;
+  padding: 1px solid white;
+  margin: 5;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: #efeee7;
+  color: whitesmoke;
+  background:rgb(179, 127, 136);
 }
 header {
-  background: #333;
+  background: grey;
+  border: 5px solid whitesmoke;
+
 }
 h1 {
-  padding: 20px 0;
-  margin: 0;
+  padding: 20px 40px 20px 40px;
+  margin: 5;
   margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
+  font-size: 30px;
+  color: whitesmoke;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+#main-bio {
+  width: 100%;
+  height:100%;
+}
+#contact-info {
+  width: 100%;
+  height: 100%;
+  
+}
+#portfolio {
+  width: 100%;
+  height: 100%;
+  background-color:rgb(179, 127, 136);
+
+}
+.image-imagecontainer{
+  width: 200px;
+  height: 400px;
+  float: left;
+  position: static;
+  padding-top: 80px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+}
+#bio-image {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  float: left;
+  padding-right: 20px;
 }
 h2 {
   font-size: 24px;
+  text-align: right;
+  position: absolute;
+  float: right;
+  padding-left: 20px;
+
 }
-a {
-  color: #d21034;
+#navbar {
+  border: 5px solid whitesmoke; 
+  margin: auto; 
+  
 }
-.container {
-  width: 1024px;
-  margin: 0 auto;
+#summary{
+  color: whitesmoke;
+  text-align: left;
+  line-height: auto;
+  border: 5px solid whitesmoke;
+  background-color: grey;
+  height:420px;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  font-size: 18px;
+  margin: auto
+
+  
 }
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+ul {
+  list-style-type: none;
+  margin-bottom:10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  border: 5px solid whitesmoke; 
+  
 }
-#main-bio {
-  width: 70%;
+
+li {
+  float: right;
 }
-#contact-info {
-  width: 30%;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
 }
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lavender;
 }
